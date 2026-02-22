@@ -40,20 +40,20 @@ const initializeDatabase = async () => {
                 await db.downloads.bulkCreate([
                     {
                         platform: 'windows',
-                        filename: 'synapse-visionlab-windows.exe',
-                        file_url: 'https://github.com/yourusername/SynapseVisionLab-website/releases/download/v1.0.0/synapse-visionlab-windows.exe',
+                        filename: 'SynapseVisionLab.exe',
+                        file_url: '/Users/simeonstamboliyski/Documents/GitHub/SynapseVisionLab-website/backend/downloads/windows/SynapseVisionLab.exe',
                         version: '1.0.0',
-                        size_mb: 150.5,
+                        size_mb: 4.2,
                         release_notes: 'Initial release for Windows',
                         download_count: 0,
                         is_active: true
                     },
                     {
                         platform: 'macos',
-                        filename: 'synapse-visionlab-macos.dmg',
-                        file_url: 'https://github.com/yourusername/SynapseVisionLab-website/releases/download/v1.0.0/synapse-visionlab-macos.dmg',
+                        filename: 'SynapseVisionLab.dmg',
+                        file_url: '/Users/simeonstamboliyski/Documents/GitHub/SynapseVisionLab-website/backend/downloads/macos/SynapseVisionLab.dmg',
                         version: '1.0.0',
-                        size_mb: 145.2,
+                        size_mb: 17.8,
                         release_notes: 'Initial release for macOS',
                         download_count: 0,
                         is_active: true
