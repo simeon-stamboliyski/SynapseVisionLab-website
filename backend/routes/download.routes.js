@@ -3,5 +3,6 @@ module.exports = app => {
     var router = require("express").Router();
 
     router.get("/:platform", downloads.getDownloadByPlatform);
+    router.get("/:platform/download", downloads.downloadFile);
     app.use('/api/downloads', router);
 };

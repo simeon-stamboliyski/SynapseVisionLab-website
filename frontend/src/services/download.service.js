@@ -6,6 +6,11 @@ const getDownloadForPlatform = (platform) => {
     return axios.get(`${API_URL}/${platform}`);
 };
 
+const downloadFile = (platform) => {
+    window.location.href = `${API_URL}/${platform}/download`;
+};
+
 export default {
-    getDownloadForPlatform
+    getDownloadForPlatform,
+    downloadFile
 };
