@@ -1,0 +1,13 @@
+Note on dependencies:
+
+express: The web framework for your API .
+
+pg and pg-hstore: Drivers for connecting to PostgreSQL .
+
+sequelize or @prisma/client: The ORM library itself .
+
+cors: Middleware to enable Cross-Origin Resource Sharing, allowing your React app (on a different port) to talk to your API .
+
+dotenv: To manage environment variables like database credentials .
+
+nodemon: A dev dependency that automatically restarts your server when you make changes
